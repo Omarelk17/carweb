@@ -3,7 +3,7 @@ node('ubuntu-Appserver-2140')
     def app
     stage('Cloning Git')
     {
-        */Let's make sure we have the repository cloned to our workspace */
+        /*Let's make sure we have the repository cloned to our workspace */
         checkout scm
     }
     stage('Build-and-Tag')
